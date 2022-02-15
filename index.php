@@ -40,6 +40,13 @@
             return $this->genere;
         }
     }
+   // stampa
+    $IronMan = new Movie('Iron Man', '126 ', '	2008', 'azione');
+    
+    $BatmanBegins = new Movie('Batman Begins', '140 ', '	2005', 'azione');
+    
+    $Avengers = new Movie('Avengers: Infinity War', '149 ', '2018', 'fantascienza');
    
+    var_dump($Avengers, $BatmanBegins,$IronMan);
 
 ?>
