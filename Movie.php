@@ -42,11 +42,20 @@
     }
    // stampa
     $IronMan = new Movie('Iron Man', '126 ', '	2008', 'azione');
-    
+    echo 'TITOLO:' . ' ' . $IronMan->getTitolo() . '<br>';
+    echo 'DURATA:' . ' ' . $IronMan->getDurata(). ' ' . 'minuti' . '<br>';
+    echo 'ANNO:' . ' ' . $IronMan->getAnno() . '<br>';
+    echo 'GENERE:' . ' ' .$IronMan->getGenere() . '<br><br>';
     $BatmanBegins = new Movie('Batman Begins', '140 ', '	2005', 'azione');
-    
+    echo 'TITOLO:' . ' ' . $BatmanBegins->getTitolo() . '<br>';
+    echo 'DURATA:' . ' ' . $BatmanBegins->getDurata(). ' ' . 'minuti' . '<br>';
+    echo 'ANNO:' . ' ' . $BatmanBegins->getAnno() . '<br>';
+    echo 'GENERE:' . ' ' .$BatmanBegins->getGenere() . '<br><br>';
     $Avengers = new Movie('Avengers: Infinity War', '149 ', '2018', 'fantascienza');
-   
+    echo 'TITOLO:' . ' ' . $Avengers->getTitolo() . '<br>';
+    echo 'DURATA:' . ' ' . $Avengers->getDurata(). ' ' . 'minuti' . '<br>';
+    echo 'ANNO:' . ' ' . $Avengers->getAnno() . '<br>';
+    echo 'GENERE:' . ' ' .$Avengers->getGenere() . '<br><br>';
     var_dump($Avengers, $BatmanBegins,$IronMan);
 
 ?>
